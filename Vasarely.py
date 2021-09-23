@@ -124,7 +124,10 @@ def pavage(inf_gauche, sup_droit, longueur, col, centre, rayon):
 
 
 def save():
-    file_name = f'Vasarely_{inf_gauche}x{sup_droit}_l{longueur}_{col0}-{col1}-{col2}_r{rayon}'
+    if not os.path.exists('exports'):
+        os.makedirs('exports')
+
+    file_name = f'exports/Vasarely_{inf_gauche}x{sup_droit}_l{longueur}_{col0}-{col1}-{col2}_r{rayon}'
 
     turtle.getcanvas().postscript(
         file=f'{file_name}.eps')
