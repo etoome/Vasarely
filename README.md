@@ -9,7 +9,7 @@
 <h3 align="center">Vasarely</h3>
 
 <div align="center">
-  Générateur d'op art inspiré par "Cheyt-Rond" de Victor Vasarely 
+  Op art generator inspired by "Cheyt-Rond" by Victor Vasarely
 </div>
 
 ### Install
